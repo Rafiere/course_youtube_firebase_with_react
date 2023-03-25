@@ -1,8 +1,12 @@
+import React from "react";
+import {Auth} from "./components/Auth";
+
 const App = () => {
 
   return (
     <div className="App">
-      <span>Testando</span>
+      <Auth/>
+
     </div>
   )
 }
